@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Scheherazade New";
+    background-color: white;
+  }
+  .dark-mode{
+    background-color: #8d8d8d;
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  p{
+    color: black;
+    padding-bottom: 10px;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .about-wrapper{
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-left: 30px ;
+    margin-right: 30px;
+    display: flex;
+  }
+  .about-container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+  }
+  #heading-about{
+    float:left;
+            width:500px;
+            height:160px;
+            line-height: 20px;
+          }
+  .heading-about h2{
+    color:black;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin: 10px;
+  }
+  #img-about{
+    float:right;
+      
+  }
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://github.com/anggunwahyunimz/meowmeow/blob/main/material-kucing-panjang5.png?raw=true);
+    background-size: cover;
+    color:white;
+    text-align: left;
+  }
+  .middle-img {
+    padding: 180px 0 100px 0;
+    background-image: url(https://github.com/anggunwahyunimz/meowmeow/blob/main/material-kucing-panjang1.png?raw=true);
+    background-size: cover;
+    color:black;
+    text-align: center;
+  }
+  .top-wrapper h1 {
+    opacity: 1;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color:white;
+  }
+  .top-wrapper p {
+    opacity: 1;
+    margin-bottom: 3px;
+    color:white;
+  }
+  .fa {
+    margin-right: 5px;
+  }
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: #102027;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+ 
+  .header-left {
+    float: left;
+  }
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+  }
+  .cats-shop {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    float: center;
+  }
+  .cats-shop-heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: black;
+  }
+  .cats-shop-heading h2 {
+    font-weight: normal;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+  }
+
+.cats-shop-list:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+  .cats-icon {
+    position: relative;
+  }
+  .cats-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  .contact-form {
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+  textarea{
+    width:400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding:20px;
+    font-size: 18px;
+  }
+  input{
+    width:400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding:20px;
+    font-size: 18px;
+  }
+  input{
+    border:1px solid #dee7ec;
+  }
+  textarea{
+    border:1px solid #dee7ec;
+  }
+  .contact-submit{
+    background-color: #62727b;
+    color:white;
+  }
+  
+  .footer img {
+    width: 125px;
+    float: left;
+  }
+  
+  .footer p {
+    color: white;
+    font-size: 12px;
+    float: right;
+  }
+  
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    float: left;
+    background-color: #102027;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .message-wrapper {
+    border-bottom: 1px solid black;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 10px 30px;
+    background-color: #62727b;
+    cursor: pointer;
+    box-shadow: 0 7px #102027;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  .toggle {
+    padding: 10px 30px;
+    background-color: #62727b;
+    cursor: pointer;
+    box-shadow: 0 7px #102027;
+    margin-top: 30px;
+  }
+  
+  .toggle:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }

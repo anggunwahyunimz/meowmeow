@@ -1,0 +1,82 @@
+@media all and (max-width: 1000px) {
+  .column {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .top-wrapper{
+    text-align: center;
+  }
+  .about-wrapper{
+    text-align: center;
+  }
+
+  #img-about{
+    opacity: 0.4;
+  }
+  .footer{
+    text-align: center;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+  .cats-shop-list{
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .column {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .header-right{
+    display:none;
+  }
+  .menu-icon{
+    display:block;
+  }
+   
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .top-wrapper{
+  text-align: center;
+  }
+  .about-wrapper{
+  text-align: center;
+  }
+
+  #img-about{
+    opacity: 0.4;
+  }
+  .cats-shop-list{
+    text-align: center;
+  }
+  .contact-form{
+    text-align: center;
+  }
+}
